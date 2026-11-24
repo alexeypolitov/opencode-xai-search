@@ -1,0 +1,9 @@
+{
+  "name": "opencode-xai-search",
+  "version": "1.0.0",
+  "description": "OpenCode web search provider backed by xAI (Grok) web_search and x_search, using the SuperGrok subscription sign-in",
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "files": ["src"],
+  "dependencies": { "@opencode/plugin": "latest" }
+}
